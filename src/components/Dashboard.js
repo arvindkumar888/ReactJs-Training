@@ -4,7 +4,7 @@ import StatefulApp from "./Props_state/StatefullApp"
 import TextInput from "./Props_state/TextInput"
 import ChildParentInvoke from './parentchild/ChildParentInvoke';
 import RefsDemo from './parentchild/RefsDemo';
-
+import AddColorForm from './parentchild/AddColorForm';
 export default class Dashboard extends Component {
     constructor(props){
         super(props)
@@ -18,6 +18,7 @@ export default class Dashboard extends Component {
                     <TextInput></TextInput> */}
                     <ChildParentInvoke></ChildParentInvoke>
                     <RefsDemo></RefsDemo>
+                    <AddColorForm></AddColorForm>
                  </div>
             </form>
             
