@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import { longStackSupport } from 'q';
 import StatefulApp from "./Props_state/StatefullApp"
 import TextInput from "./Props_state/TextInput"
+import ChildParentInvoke from './parentchild/ChildParentInvoke';
+import RefsDemo from './parentchild/RefsDemo';
+
 export default class Dashboard extends Component {
     constructor(props){
         super(props)
@@ -11,8 +14,10 @@ export default class Dashboard extends Component {
         return(
             <form>
                 <div>
-                    <StatefulApp></StatefulApp>
-                    <TextInput></TextInput>
+                    {/* <StatefulApp></StatefulApp>
+                    <TextInput></TextInput> */}
+                    <ChildParentInvoke></ChildParentInvoke>
+                    <RefsDemo></RefsDemo>
                  </div>
             </form>
             
