@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { longStackSupport } from 'q';
+import StatefulApp from "./Props_state/StatefullApp"
 
 export default class Dashboard extends Component {
     constructor(props){
@@ -9,7 +10,7 @@ export default class Dashboard extends Component {
     render(){
         return(
             <div>
-                <h3> Put Your Business Component tree here</h3>
+             <StatefulApp></StatefulApp>
             </div>
         );
     }
