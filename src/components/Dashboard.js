@@ -5,6 +5,7 @@ import TextInput from "./Props_state/TextInput"
 import ChildParentInvoke from './parentchild/ChildParentInvoke';
 import RefsDemo from './parentchild/RefsDemo';
 import AddColorForm from './parentchild/AddColorForm';
+import Context from './contextapi/Context'
 export default class Dashboard extends Component {
     constructor(props){
         super(props)
@@ -12,16 +13,14 @@ export default class Dashboard extends Component {
     }
     render(){
         return(
-            <form>
                 <div>
                     {/* <StatefulApp></StatefulApp>
-                    <TextInput></TextInput> */}
-                    <ChildParentInvoke></ChildParentInvoke>
+                    <TextInput></TextInput> 
                     <RefsDemo></RefsDemo>
                     <AddColorForm></AddColorForm>
-                 </div>
-            </form>
-            
+                    <ChildParentInvoke></ChildParentInvoke>*/}                  
+                    <Context></Context>
+                 </div>            
         );
     }
 }
