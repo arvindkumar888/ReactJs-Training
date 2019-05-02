@@ -57,4 +57,4 @@ class MyComponent extends React.Component {
       )
    }
 }
-export default MyHOC(MyComponent)
+export default MyHOC(MyComponent) 
