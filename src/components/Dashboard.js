@@ -9,6 +9,7 @@ import Context from './contextapi/Context';
 import CompLifeCycle from './lifecycle/CompLifeCycle';
 import WeatherComponent from './lifecycle/WeatherComponent'
 import FormApp from './formvalidation/FormsApp'
+import ButtonOne from './ButtonOne'
 export default class Dashboard extends Component {
     constructor(props){
         super(props)
@@ -23,10 +24,11 @@ export default class Dashboard extends Component {
                     <AddColorForm></AddColorForm>
                     <ChildParentInvoke></ChildParentInvoke>
                     <Context></Context>
-                     <CompLifeCycle></CompLifeCycle>*/}                  
-                   
-                    <WeatherComponent> </WeatherComponent>
-                    <FormApp></FormApp>
+                     <CompLifeCycle></CompLifeCycle>
+                     <WeatherComponent> </WeatherComponent>
+                    <FormApp></FormApp>*/}                  
+                    <ButtonOne></ButtonOne>
+                    <ButtonOne disable/>
                  </div>            
         );
     }
